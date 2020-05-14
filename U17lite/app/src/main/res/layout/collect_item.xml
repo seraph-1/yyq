@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/collect_view">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic"
+        android:layout_gravity="center">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comicname"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/pic">
+    </TextView>
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/comicname"
+        android:layout_alignBottom="@+id/comicname"
+        android:background="@drawable/edge4"
+        android:id="@+id/choose">
+    </Button>
+
+</RelativeLayout>
